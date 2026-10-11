@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aimen Rami Merrouche — AI, ML, NLP</title>
-  <meta name="description" content="Aimen Rami Merrouche, MSc Artificial Intelligence candidate at UWE Bristol. Retrieval from a trusted source, and LLM evaluation of the answer.">
+  <title>Aimen Rami Merrouche — Junior AI Engineer</title>
+  <meta name="description" content="Aimen Rami Merrouche, computer science and software engineering graduate and MSc Artificial Intelligence candidate at UWE Bristol (PGD with Distinction). A working brief taken through to an application that answers from a trusted source, then checked for whether the answer is faithful, cited, or should have been refused.">
   <style>
     :root {
       color-scheme: light;
@@ -91,86 +91,129 @@
       font-size: 0.92rem;
     }
     footer a { color: var(--link); }
+    ul.skills, ul.plain { margin: 0; padding: 0; list-style: none; }
+    ul.skills li, ul.plain li { margin: 0 0 0.45rem; }
+    ul.skills strong { font-weight: 700; }
   </style>
 </head>
 <body>
   <main>
     <header>
       <h1>Aimen Rami Merrouche</h1>
-      <p class="role">MSc Artificial Intelligence candidate, UWE Bristol</p>
-      <p class="role">Postgraduate Diploma with Distinction</p>
-      <p class="tags">AI · Machine learning · NLP</p>
-      <p class="profile">I build NLP systems that answer from a trusted source, then use LLM evaluation to show whether the answer is faithful, cited, or should have been refused.</p>
+      <p class="role">Junior AI Engineer</p>
+      <p class="role">Bristol, UK, open to relocate within the UK</p>
+      <p class="role">MSc Artificial Intelligence candidate, UWE Bristol · Postgraduate Diploma with Distinction</p>
+      <p class="tags">Available immediately · Full-time</p>
+      <p class="profile">Computer science and software engineering graduate. I take a working brief through to an application that answers from a trusted source, then check whether the answer is faithful, cited, or should have been refused. I work on problems end to end: define the question, test it, and show what the evidence does not support. Seeking a junior applied AI or software engineering role.</p>
       <nav class="actions" aria-label="Contact and CV">
-        <a class="button" href="https://drive.google.com/uc?export=download&id=1bq410q7h_Ke--8v1unTnTsKwxdRqAXfv">Download CV (PDF)</a>
-        <a class="button secondary" href="https://drive.google.com/file/d/1bq410q7h_Ke--8v1unTnTsKwxdRqAXfv/view?usp=drive_link">View CV</a>
+        <a class="button" href="https://drive.google.com/uc?export=download&id=1UuzTAtRxVIG9CFzQIvRadTCGwLzKzILb">Download CV (PDF)</a>
+        <a class="button secondary" href="https://drive.google.com/file/d/1UuzTAtRxVIG9CFzQIvRadTCGwLzKzILb/view?usp=sharing">View CV</a>
         <a class="button secondary" href="https://www.linkedin.com/in/aimen-rami-merrouche-553309238">LinkedIn</a>
         <a class="button secondary" href="https://github.com/ramy-glitch">GitHub</a>
         <a class="button secondary" href="mailto:aimenramimerrouche@gmail.com">Email</a>
       </nav>
     </header>
 
-    <section aria-labelledby="ai-heading">
-      <h2 id="ai-heading">AI and machine learning</h2>
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills and tools</h2>
+      <article>
+        <ul class="skills">
+          <li><strong>Languages.</strong> Python, C, SQL, Java, JavaScript, PHP, Assembly (Structure machine)</li>
+          <li><strong>AI / ML.</strong> RAG (BM25, dense, hybrid, FAISS, pgvector), RAGAS, LangChain, Qwen, Ollama, LLM evaluation, scikit-learn, Optuna, TensorFlow/Keras, NeuroKit2, pandas, NumPy, SciPy, PyTorch, OpenCV</li>
+          <li><strong>Backend and data.</strong> FastAPI, PostgreSQL, MySQL, MongoDB, JWT, Laravel, Java/JSP, Power BI</li>
+          <li><strong>Frontend and apps.</strong> React, Node.js, Express, JavaFX</li>
+          <li><strong>Systems and cloud.</strong> Linux, GCC, Git, Docker (containers), processes, IPC and synchronisation, Microsoft Azure (AKS, ExpressRoute, Synapse, Blob storage; design and costing), Microsoft Press AZ-900 Cert Prep, LinkedIn Learning, Oct 2026</li>
+          <li><strong>Responsible AI.</strong> UK GDPR consultation letter and pitch on international transfers and automated decisions, reviewed with a UWE data-governance consultant. Ethics and gender-bias analysis on WESAD.</li>
+          <li><strong>Spoken.</strong> Arabic (native). French (professional; language of medicine and BSc study). English (professional; MSc taught, written and presented in English).</li>
+        </ul>
+      </article>
+    </section>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
 
       <article>
         <h3><a href="https://github.com/Side941/AI-group-project-2026">Grounded RAG for suicide and depression risk detection</a></h3>
-        <p class="kicker">Group MSc dissertation</p>
+        <p class="kicker">Group MSc dissertation · 2026</p>
         <p>I set up Planner and Teams for weekly agile sprints and stand-ups, built the ICD-11 store and the seed-and-expand retrieval, and worked on the hybrid RRF retriever. I found the split leakage, identified the leaking posts by ID, and recalculated the metrics on 420 posts: 67.6% accuracy and 85.2% citation faithfulness.</p>
       </article>
 
       <article>
         <h3><a href="https://github.com/ramy-glitch/Deskline">Deskline, healthcare policy-navigation RAG</a></h3>
-        <p class="kicker">Proof of concept</p>
-        <p>Answers only from the matching NHS section, signposts clinical questions, and opens a ticket when the pages do not support the claim. On 22 frozen questions, faithfulness was 0.93 against a 0.8 bar. Routing was 13 of 22, and two UAT calls answered when they should have ticketed.</p>
-        <p class="tech">Python · FastAPI · LangChain · PostgreSQL/pgvector · Docker · RAGAS</p>
+        <p class="kicker">Proof of concept · 2026</p>
+        <p>Took this proof of concept through discovery, alpha and UAT, with the acceptance rules fixed before the scores. Answers only from the matching NHS section, signposts clinical questions, and opens a ticket when the section is unclear or the pages do not support the claim. On 22 frozen questions, faithfulness was 0.93 against a 0.8 bar. Routing was 13 of 22, and two UAT calls answered when they should have ticketed. An Azure Container Apps rollout in UK South was deleted before the billable parts.</p>
       </article>
-
-      <article>
-        <h3><a href="https://github.com/ramy-glitch/Detecting_affective_states_for_adaptive_recommendations">Wrist-only affective-state detection (WESAD)</a></h3>
-        <p class="kicker">15 subjects, leave-one-subject-out</p>
-        <p>Aligned wrist EDA, BVP, ACC and TEMP, engineered the features by hand, and compared models on 15 held-out subjects. A tuned Random Forest reached macro-F1 0.61, against a 1D CNN at 0.51.</p>
-      </article>
-
-      <article>
-        <h3><a href="https://github.com/ramy-glitch/Travel_salesman_project">Tabu Search vs Genetic Algorithm for the travelling salesman problem</a></h3>
-        <p class="kicker">Python, NumPy</p>
-        <p>Compared both methods over 10 runs on 10 to 50 cities. The genetic algorithm found shorter tours on 4 of 5 sizes, 2.65% shorter on average. Tabu Search was faster on all five.</p>
-      </article>
-    </section>
-
-    <section aria-labelledby="software-heading">
-      <h2 id="software-heading">Software</h2>
 
       <article>
         <h3>KhidmaDZ, client professional services marketplace</h3>
-        <p class="kicker">Pair project · BSc final-year project · defended June 2025 · private repository</p>
-        <p>Incremental and iterative, with Git. I designed the architecture, built the MongoDB database with Mongoose, and used Node.js for authentication and server-side input validation. I built the React frontend with JWT and encryption for messages and voice.</p>
-        <p class="tech">React · JWT · encryption for messages and voice</p>
+        <p class="kicker">Pair project · final-year project · defended June 2025 · private repository</p>
+        <p>We built it in increments, with design, implementation and testing in each one, and used Git and GitHub to share the code. I owned the report and the system architecture, built the MongoDB database with Mongoose, and used Node.js for authentication and server-side validation of user input. I built the React frontend, with JWT and encryption for messages and voice.</p>
       </article>
 
       <article>
         <h3><a href="https://github.com/ramy-glitch/Hotel_reservation">Hotel reservation platform</a></h3>
-        <p class="kicker">Laravel 11, MySQL</p>
-        <p>Three roles, each with its own authentication guard, over a 13-table schema. Customers search hotels by location, rating, services, party size, budget and date, and write reviews protected by an authorisation policy. Admins manage accounts and see platform statistics.</p>
+        <p class="kicker">2024–2025</p>
+        <p>Built a Laravel 11 and MySQL web app with three roles (admin, hotel manager, customer), each on its own authentication guard, over a 13-table schema. Customers search hotels by location, rating, services, party size, budget and date, and write reviews protected by an authorisation policy. Admins manage accounts and see platform statistics.</p>
       </article>
 
       <article>
         <h3><a href="https://github.com/ramy-glitch/Decision-support-system">Decision Support, multi-criteria ranking web app</a></h3>
-        <p class="kicker">Laravel, MySQL</p>
-        <p>Ranks alternatives with the Weighted Sum Method. The user defines criteria, weights and score ranges, enters measured values, and gets a weighted total for each alternative. Includes admin login, validated multi-step forms, and saved problems that can be edited or deleted.</p>
+        <p class="kicker">2024–2025</p>
+        <p>Built a Laravel and MySQL app that ranks alternatives with the Weighted Sum Method: the user defines criteria, weights and score ranges, enters measured values, and gets a weighted total for each alternative. Added admin login, validated multi-step forms, and saved problems that can be edited or deleted.</p>
       </article>
 
       <article>
         <h3><a href="https://github.com/ramy-glitch/AMTC">AMTC laboratory website and content-management system</a></h3>
-        <p class="kicker">With a partner · React, Express</p>
-        <p>I built the content-management side: page content moved into one JSON source served by the API, and a JWT-protected admin panel with section editors and an automatic backup on every save.</p>
+        <p class="kicker">2025 · with a partner</p>
+        <p>Built a React and Express website for a mechanical-testing laboratory. I built the content-management side: page content moved into one JSON source served by the API, and a JWT-protected admin panel with section editors and an automatic backup on every save.</p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/ramy-glitch/Detecting_affective_states_for_adaptive_recommendations">Wrist-only affective-state detection (WESAD)</a></h3>
+        <p class="kicker">2025</p>
+        <p>Aligned wrist EDA, BVP, ACC and TEMP from the Empatica E4 for 15 subjects, leaving out the chest sensor. Built the features by hand with NeuroKit2 and tuned a Random Forest with Optuna under 15-fold leave-one-subject-out. On 1,499 windows across baseline, stress, amusement and meditation, macro-F1 was 0.61 against a 1D CNN at 0.51. Stress separated; amusement did not. A check on 12 male and 3 female subjects found the spread was between people, not between genders.</p>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/ramy-glitch/Travel_salesman_project">Tabu Search vs Genetic Algorithm for the Travelling Salesman Problem</a></h3>
+        <p class="kicker">2025</p>
+        <p>Implemented Tabu Search (2-opt neighbourhood, nearest-neighbour start) and a Genetic Algorithm (order crossover, tournament selection, elitism, adaptive mutation) in Python and NumPy, and tuned tenure, population, mutation, crossover and stopping rules over 10 runs per setting on 10 to 50 cities. The GA found shorter tours on 4 of 5 sizes (2.65% shorter on average). Tabu Search was faster on all five.</p>
       </article>
 
       <article>
         <h3>Azure hybrid-cloud migration proposal</h3>
-        <p class="kicker">Case study · design and costing</p>
-        <p>For a 260-shop, 4,000-staff charity, designed a hybrid Azure (UK South) migration: Odoo on AKS, existing hardware kept for disaster recovery over ExpressRoute, and Synapse with Power BI for reporting. Compared AWS, Azure and GCP and presented the recommendation as a board pitch.</p>
+        <p class="kicker">Case study · 2026</p>
+        <p>For a case study of a 260-shop, 4,000-staff charity, analysed the on-premises estate with SWOT and designed a hybrid Azure (UK South) migration: open-source Odoo containerised on AKS to replace legacy CRM, HR and payroll, existing hardware kept as a disaster-recovery tier over ExpressRoute, and Synapse with Power BI for reporting.</p>
+        <p>Compared AWS, Azure and GCP on cost, UK data residency and Kubernetes support, built a three-year cost model within a £10m budget, and presented the recommendation as a board pitch.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <article>
+        <h3>Computer Vision Intern, infrared vein detection</h3>
+        <p class="kicker">Dr N. Ouadahi, ESST · 3 months</p>
+        <p>Built an OpenCV preprocessing and edge-detection pipeline for near-infrared vein imaging. Presented findings and a proposed ML approach to faculty.</p>
+      </article>
+    </section>
+
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <article>
+        <h3>MSc Artificial Intelligence, University of the West of England (UWE), Bristol</h3>
+        <p class="kicker">2025–2026 · expected completion Autumn 2026 · Postgraduate Diploma awarded with Distinction</p>
+        <p>Group dissertation: Improving factuality of LLMs using RAG for suicide and depression risk detection.</p>
+        <p>Modules: Machine Learning Algorithms; Knowledge-Based and Hybrid Systems; Machine Learning for Language and Vision; AI for Search and Optimisation; Data and Information Governance; Cloud Computing; Statistical Inference.</p>
+      </article>
+      <article>
+        <h3>BSc Computer Science, Higher School of Sciences and Technology (ESST), Algiers</h3>
+        <p class="kicker">2022–2025</p>
+        <p>Specialism: information systems and software engineering. 180 credits. Core: algorithms and data structures, databases, operating systems, networks, OOP and web. Named modules: Information Retrieval, Decision-Support Systems, Business Intelligence, Distributed Information Systems, Computer Security.</p>
+      </article>
+      <article>
+        <h3>Medicine, University of Algiers, Faculty of Medicine</h3>
+        <p class="kicker">2018–2022</p>
+        <p>Studied biostatistics, biophysics, and second-year systems (cardiovascular and blood, digestive, urinary, endocrine, nervous system and senses, genetics, immunology), then moved into computer science. Content curator for a university medical-posts club.</p>
       </article>
     </section>
 
